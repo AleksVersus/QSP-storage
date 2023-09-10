@@ -1,0 +1,33 @@
+QSP-Game Движок обеспечивающий корректное применение элементов
+
+$args[0] - текст, который мы выводим
+$args[1] ... $args[18] - настройки в порядке применения:
+	h1 - заголовок первого уровня
+	center - завернуть в центрующий тег
+	button - завернуть в тег кнопки
+
+# html_it
+local $text_ = $args[0]
+loop local i = 1 while i<arrsize('args') step i+=1:
+	if $args[i] = 'h1':
+		$text_ = '<h1><<$text_>></h1>'
+	elseif $args[i] = 'center':
+		$text_ = '<div class="avs-center-wrapper"><<$text_>></div>'
+	elseif $args[i] = 'center-line':
+		$text_ = '<div class="avs-center-line-wrapper"><<$text_>></div>'
+	elseif $args[i] = 'button':
+		$text_ = '<div class="avs-button"><<$text_>></div>'
+	end
+end
+$result = $text_
+--- html_it ---------------------------------
+
+
+$args[0] - текст кнопки
+$args[1] - код кнопки (только чистый QSP, т.е. в фигурных скобках)
+# html_it.button
+local $text_ = @html_it($args[0], 'button')
+local $code_ = $replace($args[1], '"', '\"')
+$text_ = '<a href="EXEC:<<$code_>>" class="avs-button__link"><<$text_>></a>'
+$result = $text_
+--- html_it.button ---------------------------------

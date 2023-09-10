@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		//"color_scheme": "Packages/User/Dayle Rees Color Schemes/newest/contrast/darkside-contrast.sublime-color-scheme",
+		"word_wrap": "true"
+	}
+}

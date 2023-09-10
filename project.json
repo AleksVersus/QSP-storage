@@ -1,0 +1,29 @@
+{
+	"project":
+	[
+		{
+			"build":".\\game\\catalog.qsp",
+			"folders":
+			[
+				{"path":".\\game\\[src]"}
+			]
+		},
+		{
+			"build": ".\\game\\savepass\\savepass.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2011\\2011.04.09.Пароль от спасения\\+src"}
+			]
+		},
+		{
+			"build": ".\\game\\secretproject\\secretproject.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2015\\2015.03.19.Секретный проект - Часть первая\\+src"}
+			]
+		}
+	],
+	"start":".\\game\\catalog.qsp",
+	"player":"C:\\Program Files\\qSpider\\qspider.exe",
+	"postprocessors":["copyres.py"]
+}

@@ -1,0 +1,89 @@
+QSP-Game Хранилище игр на QSP стартовая локация
+
+# [start]
+if $onnewloc = '':
+	usehtml = 1
+	$usercom = 'uc'
+	$onnewloc = 'onNewLoc'
+	showacts 0
+	showstat 0
+	showobjs 0
+	@set_theme()
+	fsize = 18
+end
+
+!@ заголовок
+$lvar += @html_it('Хранилище QSP-игр','h1','center')
+
+!@ краткое_описание
+$lvar += @html_it('Здесь я собираю различные игры на QSP, в надежде сохранить их и дать им вторую жизнь.', 'center')
+:marker
+!@ кнопки
+local $buttons_
+
+$buttons_[0] = @html_it.button('Подробнее о проекте', {goto 'about_project'})
+$buttons_[1] = @html_it.button('Тема: ' + $GAME_VALUE['theme'], {@change_theme()})
+
+$lvar += @html_it($buttons_[0], 'center-line')
+$lvar += @html_it($buttons_[1], 'center-line')
+
+--- [start] ---------------------------------
+
+# uc
+if instr($user_text, '>')=1:
+	dynamic $mid($user_text, 2)
+end
+--- uc ---------------------------------
+
+# onNewLoc
+*p '<div class="avs-theme-<<$GAME_VALUE["theme"]>>"><<$lvar>></div>'
+killvar '$lvar'
+--- onNewLoc ---------------------------------
+
+
+# set_theme
+if $GAME_VALUE['theme'] = '':
+	$GAME_VALUE['theme'] = 'boxuk'
+end
+$args[0] = $GAME_VALUE['theme']
+if $args[0] = 'boxuk':
+	bcolor = rgb(255,255,255)
+	fcolor = rgb(22,184,174)
+elseif $args[0] = 'kiwi':
+	bcolor = rgb(22,26,25)
+	fcolor = rgb(161,230,193)
+elseif $args[0] = 'netbeans':
+	bcolor = rgb(238,238,238)
+	fcolor = rgb(210,123,0)
+elseif $args[0] = 'solarflare':
+	bcolor = rgb(34,34,34)
+	fcolor = rgb(237,229,116)
+elseif $args[0] = 'darkside':
+	bcolor = rgb(34,35,36)
+	fcolor = rgb(242,212,43)
+elseif $args[0] = 'frontier':
+	bcolor = rgb(17,15,14)
+	fcolor = rgb(248,187,57)
+end
+--- set_theme ---------------------------------
+
+# change_theme
+local $themes_
+$themes_[] = 'boxuk'
+$themes_[] = 'netbeans'
+$themes_[] = 'kiwi'
+$themes_[] = 'solarflare'
+$themes_[] = 'darkside'
+$themes_[] = 'frontier'
+
+local pos_ = arrpos('$themes_', $GAME_VALUE['theme'])
+pos_ += 1
+if pos_ >= arrsize('$themes_'): pos_ = 0
+$GAME_VALUE['theme'] = $themes_[pos_]
+@set_theme()
+goto $curloc
+--- change_theme ---------------------------------
+
+
+
+

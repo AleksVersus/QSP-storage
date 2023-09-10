@@ -1,0 +1,125 @@
+.avs-center-wrapper {
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.avs-center-line-wrapper {
+	width:100%;
+	display: flex;
+	justify-content: center;
+	column-gap: 0.5em;
+}
+
+.avs-button {
+	margin: 1em 0;
+  padding: 1em;
+	border-radius: 0.2em;
+}
+
+.avs-button__link, .avs-link {
+  text-decoration: none;
+}
+
+.avs-theme-frontier .avs-button {
+	background: rgb(45,191,126);
+	color: rgb(34,35,36);
+}
+.avs-theme-frontier .avs-button:hover {
+	background: rgb(248,248,194);
+}
+.avs-theme-frontier .avs-button__link {
+	color: rgb(34,35,36);
+}
+.avs-theme-frontier .avs-link {
+	color: #f8f8f0;
+}
+.avs-theme-frontier .avs-link:hover {
+	color: rgb(216,216,209);
+}
+
+
+.avs-theme-darkside .avs-button {
+	background: rgb(27,195,232);
+	color: rgb(34,35,36);
+}
+.avs-theme-darkside .avs-button:hover {
+	background: rgb(142,105,201);
+}
+.avs-theme-darkside .avs-button__link {
+	color: rgb(34,35,36);
+}
+.avs-theme-darkside .avs-link {
+	color: #FFE792;
+}
+.avs-theme-darkside .avs-link:hover {
+	color: #F08D24;
+}
+
+.avs-theme-kiwi .avs-button {
+	background: rgb(0,98,98);
+	color: rgb(237,235,230);
+}
+.avs-theme-kiwi .avs-button:hover {
+	background: rgb(17,68,59);
+}
+.avs-theme-kiwi .avs-button__link {
+	color: rgb(237,235,230);
+}
+.avs-theme-kiwi .avs-link {
+	color: rgb(237,235,230);
+}
+.avs-theme-kiwi .avs-link:hover {
+	color: rgb(199,197,193);
+}
+
+.avs-theme-netbeans .avs-button {
+	background: rgb(172,128,255);
+	color: rgb(238,238,238);
+}
+.avs-theme-netbeans .avs-button:hover {
+	background: rgb(249,36,114);
+}
+.avs-theme-netbeans .avs-button__link {
+	color: rgb(238,238,238);
+}
+.avs-theme-netbeans .avs-link {
+	color: #000066;
+}
+.avs-theme-netbeans .avs-link:hover {
+	color: #0000E6;
+}
+
+.avs-theme-solarflare .avs-button {
+	background: rgb(252,145,58);
+	color: rgb(34,34,34);
+}
+.avs-theme-solarflare .avs-button:hover {
+	background: rgb(253,150,34);
+}
+.avs-theme-solarflare .avs-button__link {
+	color: rgb(34,34,34);
+}
+.avs-theme-solarflare .avs-link {
+	color: #8FBE00;
+}
+.avs-theme-solarflare .avs-link:hover {
+	color: #a7da1e;
+}
+
+.avs-theme-boxuk .avs-button {
+	background: rgb(0,157,134);
+	color: rgb(255,255,255);
+}
+.avs-theme-boxuk .avs-button:hover {
+	background: rgb(0,124,157);
+}
+.avs-theme-boxuk .avs-button__link {
+	color: rgb(255,255,255);
+}
+.avs-theme-boxuk .avs-link {
+	color: #8FBE00;
+}
+.avs-theme-boxuk .avs-link:hover {
+	color: #A6E22E;
+}

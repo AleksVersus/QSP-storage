@@ -21,6 +21,13 @@
 			[
 				{"path":"..\\[QSPGamesAll]\\2015\\2015.03.19.Секретный проект - Часть первая\\+src"}
 			]
+		},
+		{
+			"build": ".\\game\\heroballad\\heroballad.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2015\\2015.03.19.Баллада о Герое\\+src"}
+			]
 		}
 	],
 	"start":".\\game\\catalog.qsp",

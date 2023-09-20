@@ -14,6 +14,10 @@ resources = [
 	{
 		"src": "..\\[QSPGamesAll]\\2015\\2015.03.19.Баллада о Герое\\+res",
 		"dst": ".\\game\\heroballad\\+res"
+	},
+	{
+		"src": "..\\[QSPGamesAll]\\2008\\2008.07.11.Go Home\\+res",
+		"dst": ".\\game\\go_home\\+res"
 	}
 ]
 

@@ -28,6 +28,13 @@
 			[
 				{"path":"..\\[QSPGamesAll]\\2015\\2015.03.19.Баллада о Герое\\+src"}
 			]
+		},
+		{
+			"build": ".\\game\\go_home\\go_home.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2008\\2008.07.11.Go Home\\+src"}
+			]
 		}
 	],
 	"start":".\\game\\catalog.qsp",

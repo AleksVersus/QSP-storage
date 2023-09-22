@@ -12,28 +12,35 @@
 			"build": ".\\game\\savepass\\savepass.qsp",
 			"folders":
 			[
-				{"path":"..\\[QSPGamesAll]\\2011\\2011.04.09.Пароль от спасения\\+src"}
+				{"path":"..\\[QSPGamesAll]\\2011\\+ 2011.04.09.Пароль от спасения\\+src"}
 			]
 		},
 		{
 			"build": ".\\game\\secretproject\\secretproject.qsp",
 			"folders":
 			[
-				{"path":"..\\[QSPGamesAll]\\2015\\2015.03.19.Секретный проект - Часть первая\\+src"}
+				{"path":"..\\[QSPGamesAll]\\2015\\+ 2015.03.19.Секретный проект - Часть первая\\+src"}
 			]
 		},
 		{
 			"build": ".\\game\\heroballad\\heroballad.qsp",
 			"folders":
 			[
-				{"path":"..\\[QSPGamesAll]\\2015\\2015.03.19.Баллада о Герое\\+src"}
+				{"path":"..\\[QSPGamesAll]\\2015\\+ 2015.03.19.Баллада о Герое\\+src"}
 			]
 		},
 		{
 			"build": ".\\game\\go_home\\go_home.qsp",
 			"folders":
 			[
-				{"path":"..\\[QSPGamesAll]\\2008\\2008.07.11.Go Home\\+src"}
+				{"path":"..\\[QSPGamesAll]\\2008\\+ 2008.07.11.Go Home\\+src"}
+			]
+		},
+		{
+			"build": ".\\game\\onestep\\onestep.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2008\\+ 2008.07.01.Один неверный шаг\\+src"}
 			]
 		}
 	],

@@ -42,6 +42,13 @@
 			[
 				{"path":"..\\[QSPGamesAll]\\2008\\+ 2008.07.01.Один неверный шаг\\+src"}
 			]
+		},
+		{
+			"build": ".\\game\\shortepic\\shortepic.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2010\\+ 2010.05.30.Короткая былина\\+src"}
+			]
 		}
 	],
 	"start":".\\game\\catalog.qsp",

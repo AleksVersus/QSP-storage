@@ -4,20 +4,24 @@ import shutil
 
 resources = [
 	{
-		"src": "..\\[QSPGamesAll]\\2015\\2015.03.19.Секретный проект - Часть первая\\+res",
+		"src": "..\\[QSPGamesAll]\\2015\\+ 2015.03.19.Секретный проект - Часть первая\\+res",
 		"dst": ".\\game\\secretproject\\+res"
 	},
 	{
-		"src": "..\\[QSPGamesAll]\\2011\\2011.04.09.Пароль от спасения\\+res",
+		"src": "..\\[QSPGamesAll]\\2011\\+ 2011.04.09.Пароль от спасения\\+res",
 		"dst": ".\\game\\savepass\\+res"
 	},
 	{
-		"src": "..\\[QSPGamesAll]\\2015\\2015.03.19.Баллада о Герое\\+res",
+		"src": "..\\[QSPGamesAll]\\2015\\+ 2015.03.19.Баллада о Герое\\+res",
 		"dst": ".\\game\\heroballad\\+res"
 	},
 	{
-		"src": "..\\[QSPGamesAll]\\2008\\2008.07.11.Go Home\\+res",
+		"src": "..\\[QSPGamesAll]\\2008\\+ 2008.07.11.Go Home\\+res",
 		"dst": ".\\game\\go_home\\+res"
+	},
+	{
+		"src": "..\\[QSPGamesAll]\\2010\\+ 2010.05.30.Короткая былина\\+res",
+		"dst": ".\\game\\shortepic\\+res"
 	}
 ]
 

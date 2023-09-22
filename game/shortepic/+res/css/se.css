@@ -1,0 +1,147 @@
+.avs-right-wrapper {
+  padding: 0.5em 1em;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 0.5em;
+}
+
+/* Форматирование стандартных параграфов */
+.avs-page-p {
+	text-align: left;
+	text-indent: 1.5em;
+}
+.avs-hero-status {
+  text-align: center;
+  padding: 0.5em 0.25em;
+  border: 1px solid rgba(0,50,0,0.6);
+}
+.avs-zombie-status {
+  text-align: center;
+  padding: 0.5em 0.25em;
+  border: 1px solid rgba(80,0,0,0.6);
+}
+
+.avs-page-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.avs-page-p-center {
+  text-align: center;
+}
+
+/* Действия */
+.avs-act-button {
+  background: rgb(50, 50, 50);
+  padding: 0.5em;
+  border-radius: 0.15em;
+}
+.avs-act-button:hover {
+/*  box-shadow: 0px 0px 8px 2px rgba(255, 255, 200, 1);*/
+  background: rgb(50, 50, 50, 0.85);
+}
+
+.avs-act-button__link {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/* Флекс-контейнер для выравнивания действий в столбец */
+.avs-acts-column {
+  min-width: 15%;
+	display: flex;
+	flex-direction: column;
+    row-gap: 1em;
+    padding: 0.5em;
+}
+.avs-acts-column__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.avs-all-screen__wrapper {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.avs-all-screen {
+  width: 100%;
+  max-width: 800px;
+  
+  display: flex;
+  justify-content: center;
+}
+.avs-objs-stat {
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+.avs-objects {
+  display: flex;
+  column-gap: 0.5em;
+  justify-content: space-around;
+  row-gap: 1em;
+  padding: 0.5em 1em;
+}
+/* Действия */
+.avs-obj-button {
+  background: rgb(197, 227, 132);
+  padding: 0.5em;
+  border-radius: 0.15em;
+}
+.avs-obj-button:hover {
+  box-shadow: 0px 0px 8px 2px rgba(80, 80, 0, 0.9);
+   
+}
+
+.avs-obj-button__link {
+  color: rgb(0,66,66);
+  text-decoration: none;
+}
+
+.avs-stats-modaling {
+  min-width:33%;
+  display: flex;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.avs-stats-mogaling__inner {
+  padding: 1.5rem;
+  background: rgba(203, 174, 134, 0.96);
+  border: 5px solid rgb(67, 21, 4);
+  border-radius: 0.85em
+}
+
+.avs-hide-this {
+  display: none;
+}
+.avs-image-wrapper {
+  height:35vh;
+}
+.avs-loc-image {
+  
+}
+
+.avs-dialog {
+  padding: 0.5em;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-gap: 1vh;
+  max-height: 90vh;
+  overflow-y: auto;
+ box-shadow: 0px 0px 8px 2px rgba(0, 10, 10, 1);
+}
+.avs-img-replic {
+  max-height: 12vh;
+}
+.avs-replic-text {
+  text-align: justify;
+  text-indent: -1em;
+  padding-left: 1em;
+}

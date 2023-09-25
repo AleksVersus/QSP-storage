@@ -49,6 +49,13 @@
 			[
 				{"path":"..\\[QSPGamesAll]\\2010\\+ 2010.05.30.Короткая былина\\+src"}
 			]
+		},
+		{
+			"build": ".\\game\\surprise\\surprise.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2008\\+ 2008.06.30.Сюрприз\\+src"}
+			]
 		}
 	],
 	"start":".\\game\\catalog.qsp",

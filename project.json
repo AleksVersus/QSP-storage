@@ -56,6 +56,13 @@
 			[
 				{"path":"..\\[QSPGamesAll]\\2008\\+ 2008.06.30.Сюрприз\\+src"}
 			]
+		},
+		{
+			"build": ".\\game\\autumnnut\\autumnnut.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2009\\+ 2009.10.01.Осеннее безумие\\+src"}
+			]
 		}
 	],
 	"start":".\\game\\catalog.qsp",

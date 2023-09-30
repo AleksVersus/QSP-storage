@@ -1,0 +1,156 @@
+body.avs-adapt {
+  background: rgb(245, 211, 183);
+  color: rgb(0, 0, 0);
+  padding: 1em;
+}
+/* об авторах */
+.avs-about-authors {
+	width: 100%;
+	color: #005500;
+}
+
+.avs-right-wrapper {
+  padding: 0.5em 1em;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 0.5em;
+}
+
+.avs-right-wrapper__item {
+  height: 100%;
+}
+
+/* Форматирование стандартных параграфов */
+.avs-page-p {
+	text-align: justify;
+	text-indent: 1.5em;
+}
+
+.avs-page-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.avs-cmd-text {
+  color:#009900;
+  font-family: Consolas, Courier New;
+}
+
+/* Действия */
+.avs-act-button {
+  min-width: 10vw;
+  background: rgb(246,143,63);
+  color: rgb(103, 40, 25);
+  padding: 0.5em;
+  border-radius: 0.15em;
+}
+.avs-act-button:hover {
+/*  box-shadow: 0px 0px 8px 2px rgba(255, 255, 200, 1);*/
+  background: rgb(228,83,4);
+  color: rgb(255, 229, 223);
+  transition: ease-in 0.25s;
+}
+
+.avs-act-button__link {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/* Флекс-контейнер для выравнивания действий в столбец */
+.avs-acts-column {
+  min-width: 15%;
+	display: flex;
+	flex-direction: column;
+    row-gap: 1em;
+    padding: 0.5em;
+}
+.avs-acts-column__wrapper {
+  display: flex;
+}
+
+.avs-all-screen__wrapper {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.avs-all-screen {
+  padding: 0.25em 0.5em;
+  width: 100%;
+  max-width: 800px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.avs-objs-stat {
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+.avs-objects {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  padding: 0.5em 1em;
+}
+/* Действия */
+.avs-obj-button {
+  background: rgb(80, 80, 80);
+  padding: 0.5em;
+  border-radius: 0.15em;
+}
+.avs-obj-button:hover {
+/*  box-shadow: 0px 0px 8px 2px rgba(80, 80, 0, 0.9);*/
+   background: rgb(80, 80, 0);
+}
+
+.avs-obj-button__link {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.avs-stats-modaling {
+  min-width:33%;
+  display: flex;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.avs-stats-mogaling__inner {
+  padding: 1.5rem;
+  background: rgba(203, 174, 134, 0.96);
+  border: 5px solid rgb(67, 21, 4);
+  border-radius: 0.85em
+}
+
+.avs-hide-this {
+  display: none;
+}
+.avs-image-wrapper {
+  height:35vh;
+}
+.avs-loc-image {
+  
+}
+
+.avs-dialog {
+  padding: 0.5em;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-gap: 1vh;
+  max-height: 90vh;
+  overflow-y: auto;
+ box-shadow: 0px 0px 8px 2px rgba(0, 10, 10, 1);
+}
+.avs-img-replic {
+  max-height: 12vh;
+}
+.avs-replic-text {
+  text-align: justify;
+  text-indent: -1em;
+  padding-left: 1em;
+}

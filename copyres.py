@@ -24,8 +24,12 @@ resources = [
 		"dst": ".\\game\\shortepic\\+res"
 	},
 	{
-		"src": "..\\[QSPGamesAll]\\2008\\+ 2008.06.30.Сюрприз\\\\+res",
+		"src": "..\\[QSPGamesAll]\\2008\\+ 2008.06.30.Сюрприз\\+res",
 		"dst": ".\\game\\surprise\\+res"
+	},
+	{
+		"src": "..\\[QSPGamesAll]\\2009\\+ 2009.10.01.Осеннее безумие\\+res",
+		"dst": ".\\game\\autumnnut\\+res"
 	}
 ]
 

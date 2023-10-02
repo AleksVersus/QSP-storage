@@ -30,6 +30,10 @@ resources = [
 	{
 		"src": "..\\[QSPGamesAll]\\2009\\+ 2009.10.01.Осеннее безумие\\+res",
 		"dst": ".\\game\\autumnnut\\+res"
+	},
+	{
+		"src": "..\\[QSPGamesAll]\\2008\\+ 2008.01.06.Ограбление банка\\+res",
+		"dst": ".\\game\\robbank\\+res"
 	}
 ]
 

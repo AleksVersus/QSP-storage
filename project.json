@@ -63,6 +63,13 @@
 			[
 				{"path":"..\\[QSPGamesAll]\\2009\\+ 2009.10.01.Осеннее безумие\\+src"}
 			]
+		},
+		{
+			"build": ".\\game\\robbank\\robbank.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2008\\+ 2008.01.06.Ограбление банка\\+src"}
+			]
 		}
 	],
 	"start":".\\game\\catalog.qsp",

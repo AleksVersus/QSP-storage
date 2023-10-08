@@ -1,0 +1,336 @@
+body.avs-adapt-townhall {
+  background: rgb(190,180,210);
+}
+body.avs-adapt-wold {
+  background: rgb(200,200,200);
+}
+body.avs-adapt-orcsland {
+  background:  rgb(219, 60, 0);
+  color: rgb(198, 198, 198);
+  font-family: "Comic Sans MS";
+}
+
+/* Форматирование параграфов */
+.page-p { /* стандартные параграфы */
+	text-align: justify;
+	text-indent: 1.5em;
+}
+
+/* Выравнивание текста на странице */
+.wrapper-center {
+	display: flex;
+	
+	justify-content: center;
+}
+
+/* общее форматирование */
+.avs-all-screen__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.avs-all-screen {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  .avs-all-screen {max-width: 100%;}
+}
+
+/* ---------------------------- statusbar ---------------------------- */
+  .avs-herostatus {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0, 0.1);
+    border-radius: 0.1em;
+    padding: 0.1em 0.5em;
+    margin-bottom: 1em;
+  }
+  .avs-herohealth {
+    min-width: 25%;
+    max-width: 50vw;
+    display: flex;
+    align-items: center;
+    column-gap: 0.25em;
+  }
+
+.avs-herohealth-lable {}
+.avs-herohealth-level {}
+
+  .avs-heromoney {
+    display: flex;
+    align-items: center;
+    column-gap: 0.25em;
+  }
+/* ---------------------------- statusbar ---------------------------- */
+
+.avs-desc-obj {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  column-gap: 0.85em;
+}
+
+/* ----------------------- invemtory ----------------------- */
+	/* Флекс-контейнер для выравнивания предметов в столбец */
+	.avs-objects {
+		min-width: 25%;
+		display: flex;
+		flex-direction: column;
+	    row-gap: 0.25em;
+	    padding: 0.5em;
+        border-radius: 0.5em;
+      background: rgba(101, 54, 36, 0.75);
+      box-shadow: 0.5em 0.5em 1em -0.5em rgba(0,0,0,0.75) inset;
+	}
+	/* Сами кнопки */
+	.avs-obj-button {
+      padding: 0.5em;
+      border-radius: 0.15em;
+      color: black;
+      background: rgba(242, 197, 179, 0.75);
+      box-shadow: 4px 4px 5px -3px rgba(0, 0, 0, 0.33);
+	}
+    .avs-obj-button:hover {
+      background: rgba(242, 215, 187, 0.75);
+    }
+    .avs-obj-none {
+      padding: 0.5em;
+      border-radius: 0.15em;
+      color: rgba(255, 255, 255, 0.21);
+      background: rgba(128, 128, 128, 0.15);
+      box-shadow: 4px 4px 5px -3px rgba(0, 0, 0, 0.33);
+	}
+/* ----------------------- invemtory ----------------------- */
+
+/* -------------- strong ------------ */
+strong.avs-style-empty, h1.avs-style-empty {
+	color: #0088aa;
+}
+strong.avs-style-city, h1.avs-style-city {
+	color: #6DFF59;
+	text-shadow: 2px 2px 3px #000000;
+}
+strong.avs-style-townhall, h1.avs-style-townhall {
+    color: #23529F;
+/*    text-shadow: 1px 1px 3px #d9fffd;*/
+}
+strong.avs-style-wold, h1.avs-style-wold {
+	color: rgb(65, 27, 27);
+/*	text-shadow: 2px 2px 3px #000000;*/
+}
+strong.avs-style-orcsland, h1.avs-style-orcsland {
+	color: #e57171;
+	text-shadow: 2px 2px 3px #000000;
+}
+strong.avs-style-death, h1.avs-style-death {
+	color: rgb(255,230,230);
+	text-shadow: 2px 2px 3px #000000;
+}
+
+/* ----------------------- Действия ----------------------- */
+	/* Флекс-контейнер для выравнивания действий в столбец */
+	.avs-acts-column__wrapper {
+		display: flex;
+/*		justify-content: flex-start;*/
+justify-content: center;
+	}
+	.avs-acts-column {
+/*       margin-left: 1.5em;*/
+		min-width: 15%;
+		display: flex;
+		flex-direction: column;
+	    row-gap: 1em;
+	    padding: 0.5em;
+	}
+	/* Сами кнопки */
+	.avs-act-button {
+		padding: 0.5em;
+		border-radius: 0.15em;
+	}
+	.avs-act-button__link {
+		text-decoration: none;
+	}
+	/* Цветовая гамма кнопок */
+	.avs-act-button.avs-style-empty {
+		color: aliceblue;
+		background: rgb(50, 50, 50);
+	}
+	.avs-act-button.avs-style-empty:hover {
+	/*  box-shadow: 0px 0px 8px 2px rgba(255, 255, 200, 1);*/
+		background: rgb(50, 50, 50, 0.85);
+	}
+	.avs-act-button.avs-style-city {
+		color: rgb(225,225,225);
+		border: 1px solid rgb(225,225,225);
+	}
+	.avs-act-button.avs-style-city:hover {
+		  box-shadow: 0px 0px 8px 2px rgb(30, 10, 0, 1);
+		background: rgba(255, 150, 0, 0.1);
+	}
+	.avs-act-button.avs-style-townhall {
+		color:rgb(0,0,0);
+		border: 1px solid rgb(0,0,0);
+		background: rgb(217,180,222);
+	}
+	.avs-act-button.avs-style-townhall:hover {
+		color:rgb(0,0,0);
+		background: rgb(215,188,232);
+		box-shadow: 0px 0px 8px 2px rgb(207,216,255);
+	}
+    .avs-act-button.avs-style-wold {
+		color: aliceblue;
+		background: rgb(65, 27, 27);
+	}
+	.avs-act-button.avs-style-wold:hover {
+	/*  box-shadow: 0px 0px 8px 2px rgba(255, 255, 200, 1);*/
+		background: rgb(51, 20, 20);
+	}
+    .avs-act-button.avs-style-orcsland {
+		color: aliceblue;
+		background: #8f0000;
+	}
+	.avs-act-button.avs-style-orcsland:hover {
+	/*  box-shadow: 0px 0px 8px 2px rgba(255, 255, 200, 1);*/
+		background: #db0000;
+      text-shadow: 1px 1px 2px rgb(38, 10, 0);
+	}
+  .avs-act-button.avs-style-win {
+		color: rgb(0, 0, 0);
+		border: 1px solid rgb(0, 0, 0);
+	}
+	.avs-act-button.avs-style-win:hover {
+	/*  box-shadow: 0px 0px 8px 2px rgba(255, 255, 200, 1);*/
+		background: rgb(200,200,80);
+	}
+	.avs-act-button.avs-style-death {
+		color:rgb(255,230,230);
+		border: 1px solid rgb(255,230,230);
+	}
+	.avs-act-button.avs-style-death:hover {
+		background: rgb(80,0,0);
+	}
+/* ----------------------- Действия ----------------------- */
+
+/* ------------------------ Торговля ------------------------ */
+	/* grid  */
+	.avs-gds-wrapper {
+		padding: 0.5em;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-auto-rows: 1fr;
+		grid-gap: 0.5em;
+	}
+	/* Сами кнопки */
+	.avs-gds-button {
+		padding: 0.5em;
+		border-radius: 0.15em;
+	}
+	.avs-unlock-button-city {
+		color: rgb(225,225,225);
+		border: 1px solid rgb(225,225,225);
+	}
+	.avs-unlock-button-city:hover {
+		box-shadow: 0px 0px 8px 2px rgb(30, 10, 0, 1);
+		background: rgba(255, 150, 0, 0.1);
+	}
+	.avs-lock-button-city {
+		color: rgb(100,100,100);
+		border: 1px solid rgb(100,100,100);
+		background: rgba(80, 80, 80, 0.15);
+	}
+    .avs-unlock-button-dowl {
+		color: rgb(0,0,0);
+        background: rgba(242, 197, 179, 0.75);
+		border: 1px solid rgb(0, 0, 0);
+	}
+	.avs-unlock-button-dowl:hover {
+		box-shadow: 0px 0px 4px 1px rgb(70, 10, 0, 1);
+		background: rgba(242, 179, 154, 0.88);
+	}
+    .avs-lock-button-dowl {
+        color: rgb(100,100,100);
+		border: 1px solid rgb(100,100,100);
+		background: rgba(80, 80, 80, 0.15);
+    }
+    .avs-unlock-button-orcsland {
+        color: rgb(199, 199, 199);
+		border: 1px solid rgb(199, 199, 199);
+		background: #FF5719;
+    }
+	.avs-unlock-button-orcsland:hover {
+		box-shadow: 0px 0px 4px 1px rgb(70, 10, 0, 1);
+		background: #8F2600;
+	}
+    .avs-lock-button-orcsland {
+        color: rgb(106, 106, 106);
+		border: 1px solid rgb(108, 108, 108);
+		background: rgba(0, 0, 0, 0.25);
+    }
+/* ------------------------ Торговля ------------------------ */
+
+/* --------------- health scale --------------------- */
+.avs-herohealth-level {
+  height: 2em;
+  width: 100%;
+  border-radius: 6px;
+  border: 0px solid #ffffff;
+}
+.avs-herohealth-level::-webkit-meter-optimum-value {
+  background: linear-gradient(rgba(100, 0, 0, 0.5), rgba(255, 0, 0, 0.5) 50%, rgba(100, 0, 0, 0.5));
+  border-radius: 0.5em;
+}
+.avs-herohealth-level::-webkit-meter-bar {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1em 1em -0.5em #333 inset;
+}
+
+/* окно задержки  */
+.avs-delayer__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avs-delayer__wrapper.avs-style-empty {
+  background: rgba(80, 80, 80, 0.6);
+}
+.avs-delayer__wrapper.avs-style-city {
+  background: rgba(40,70,0, 0.6);
+}
+.avs-delayer__wrapper.avs-style-townhall {
+  background: rgba(190,180,210, 0.6);
+}
+.avs-delayer__wrapper.avs-style-death {
+  background: rgba(150,0,0, 0.6);
+}
+.avs-delayer__wrapper.avs-style-wold {
+  background: rgba(200,200,200, 0.6);
+}
+.avs-delayer {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5em; 
+  border-radius: 1em;
+  border: 0.5em solid rgb(125,180,67);
+  background: #ffffff;
+}
+.avs-delayer-msg {
+	color: rgb(0, 0, 0);
+}
+.avs-delayer-img, .avs-delayer-msg {
+  display: block;
+}

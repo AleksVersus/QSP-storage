@@ -34,7 +34,12 @@ resources = [
 	{
 		"src": "..\\[QSPGamesAll]\\2008\\+ 2008.01.06.Ограбление банка\\+res",
 		"dst": ".\\game\\robbank\\+res"
+	},
+	{
+		"src": "..\\[QSPGamesAll]\\2010\\+ 2010.09.01.Война с Орками\\+res",
+		"dst": ".\\game\\orcswar\\+res"
 	}
+
 ]
 
 for path in resources:

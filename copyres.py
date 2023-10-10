@@ -38,6 +38,14 @@ resources = [
 	{
 		"src": "..\\[QSPGamesAll]\\2010\\+ 2010.09.01.Война с Орками\\+res",
 		"dst": ".\\game\\orcswar\\+res"
+	},
+	{
+		"src": "..\\[QSPGamesAll]\\2005\\+ 2005.11.08.Билет в Бразилию\\+res",
+		"dst": ".\\game\\brazilticket\\1\\+res"
+	},
+	{
+		"src": "..\\[QSPGamesAll]\\2005\\+ 2005.11.08.Билет в Бразилию 2\\+res",
+		"dst": ".\\game\\brazilticket\\2\\+res"
 	}
 
 ]

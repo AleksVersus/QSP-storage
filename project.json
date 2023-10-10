@@ -77,6 +77,20 @@
 			[
 				{"path":"..\\[QSPGamesAll]\\2010\\+ 2010.09.01.Война с Орками\\+src"}
 			]
+		},
+		{
+			"build": ".\\game\\brazilticket\\1\\bt.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2005\\+ 2005.11.08.Билет в Бразилию\\+src"}
+			]
+		},
+		{
+			"build": ".\\game\\brazilticket\\2\\bt.qsp",
+			"folders":
+			[
+				{"path":"..\\[QSPGamesAll]\\2005\\+ 2005.11.08.Билет в Бразилию 2\\+src"}
+			]
 		}
 	],
 	"start":".\\game\\catalog.qsp",

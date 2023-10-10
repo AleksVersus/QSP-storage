@@ -1,0 +1,110 @@
+body.avs-adapt {
+  background: rgb(250, 237, 138);
+}
+
+/* Форматирование параграфов */
+.page-p { /* стандартные параграфы */
+	text-align: justify;
+	text-indent: 1.5em;
+}
+
+/* Выравнивание текста на странице */
+.wrapper-center {
+	display: flex;
+	justify-content: center;
+}
+
+/* общее форматирование */
+.avs-all-screen__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.avs-all-screen {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  .avs-all-screen {max-width: 100%;}
+}
+
+.avs-desc-obj {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  column-gap: 0.85em;
+}
+
+
+/* ----------------------- Действия ----------------------- */
+	/* Флекс-контейнер для выравнивания действий в столбец */
+	.avs-acts-column__wrapper {
+		display: flex;
+/*		justify-content: flex-start;*/
+justify-content: center;
+	}
+	.avs-acts-column {
+/*       margin-left: 1.5em;*/
+		min-width: 15%;
+		display: flex;
+		flex-direction: column;
+	    row-gap: 1em;
+	    padding: 0.5em;
+	}
+	/* Сами кнопки */
+	.avs-act-button {
+		padding: 0.5em;
+		border-radius: 0.15em;
+	}
+	.avs-act-button__link {
+		text-decoration: none;
+	}
+	/* Цветовая гамма кнопок */
+	.avs-act-button {
+		color: #2f2b06;
+		background: #f5e360;
+      border: 1px solid #2f2b06;
+	}
+	.avs-act-button:hover {
+	  box-shadow: 0px 0px 8px 2px rgb(117, 109, 48);
+/*		background: rgb(50, 50, 50, 0.85);*/
+	}
+/* ----------------------- Действия ----------------------- */
+
+
+
+/* окно задержки  */
+.avs-delayer__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avs-delayer__wrapper {
+  background: rgba(80, 80, 80, 0.6);
+}
+.avs-delayer {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5em; 
+  border-radius: 1em;
+  border: 0.5em solid rgb(125,180,67);
+  background: #ffffff;
+}
+.avs-delayer-msg {
+	color: rgb(0, 0, 0);
+}
+.avs-delayer-img, .avs-delayer-msg {
+  display: block;
+}

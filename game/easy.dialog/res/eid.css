@@ -1,0 +1,37 @@
+.avs-plain {
+	color:#008888;
+	text-decoration: none;
+}
+
+.avs-green {
+	color:#008800;
+}
+
+.avs_dialog_hide {
+	display: flex;
+	flex-direction: column;
+}
+
+.avs_dialog_buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	row-gap: 0.5em;
+}
+
+.avs-act-button {
+	padding: 0.5em;
+	border-radius: 0.25em;
+	border: 1px solid #88888850;
+	width: 100%;
+}
+.avs-act-button:hover {
+	background: rgba(0,0,0,0.15);
+}
+
+.avs_dialog_replics {
+	padding: 0.5em 0;
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5em;
+}

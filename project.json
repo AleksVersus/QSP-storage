@@ -91,6 +91,20 @@
 			[
 				{"path":"..\\[QSPGamesAll]\\2005\\+ 2005.11.08.Билет в Бразилию 2\\+src"}
 			]
+		},
+		{
+			"build": ".\\game\\anagramma\\game_start.qsp",
+			"folders":
+			[
+				{"path":"..\\..\\games\\[minigames]\\anagramm\\[source]"}
+			]
+		},
+		{
+			"build": ".\\game\\elvic\\elvic.qsp",
+			"folders":
+			[
+				{"path":"..\\..\\games\\[minigames]\\elvic\\[source]"}
+			]
 		}
 	],
 	"start":".\\game\\catalog.qsp",

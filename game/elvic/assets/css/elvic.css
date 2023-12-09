@@ -1,0 +1,43 @@
+.elvic-h1 {
+	color: #008800;
+	width: 100%;
+	text-align: center;
+}
+.elvic-h2-orange {
+	color: #996600;
+}
+
+.elvic-backimage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url("../img/02.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.images {
+	display: flex;
+	justify-content: space-around;
+}
+.images__item {
+	max-width:40vw;
+}
+
+.elvic-left {
+	padding: 1vh;
+	display: flex;
+	align-items: flex-start;
+	text-align: left;
+}
+.elvic-center {
+	padding: 1vh;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+}

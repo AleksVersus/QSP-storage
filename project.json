@@ -105,6 +105,13 @@
 			[
 				{"path":"..\\..\\games\\[minigames]\\elvic\\[source]"}
 			]
+		},
+		{
+			"build": ".\\game\\unlock\\unlock.qsp",
+			"folders":
+			[
+				{"path":"..\\..\\games\\[minigames]\\unlock\\[source]"}
+			]
 		}
 	],
 	"start":".\\game\\catalog.qsp",
